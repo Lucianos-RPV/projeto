@@ -1,12 +1,40 @@
+.cabecalho{
+    background-image: url('imagens/BG-img-inicial.jpg');
+    height: 1000px;
+    width: auto;
+}
+
+.navbar{
+    opacity: 0.5;
+    padding: 0;
+}
+
 .navbar-brand{
-    padding-left: 30px;
+    padding-left: 30px;   
+}
+
+.container-fluid{
+    background-color: #b3b3b3;
+    padding: 0;
 }
 
 .menu{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .nav-item{
-    padding: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.nav-item a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+
+.nav-item:hover{
+    background-color: white;
 }
