@@ -1,0 +1,12 @@
+.navbar-brand{
+    padding-left: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    padding: 20px;
+}
