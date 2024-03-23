@@ -4,60 +4,135 @@
 }
 
 body {
-    font-family: 'DM sans', sans-serif; 
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
 }
 
-.cabecalho{
-    background-image: url('imagens/BG-img-inicial-full.jpg');
+.cabecalho {
+    background-image: url('./imagens/image-bg.webp');
     width: 100%;
     height: 500px;
     background-size: cover;
     background-position: top;
 }
 
-.navbar{
-    opacity: 0.5;
+.navbar {
+    opacity: 0.75;
     padding: 0;
 }
 
-.navbar-brand{
-    padding-left: 30px;   
+.navbar-brand {
+    padding-left: 30px;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: #b3b3b3;
     padding: 0;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
 }
 
-.nav-item{
+.nav-item {
+    display: flex;
     padding: 15px;
     margin: 15px;
+    align-items: center;
 }
 
-.nav-item a{
+.nav-item a {
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: 1000;
-    color: black;
+    color: #000;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background-color: white;
 }
 
-.cabecalho h1{
-    color: black;
-    padding-left: 30px;
+.cadastro{
+    padding-left: 60px;
+    padding-top: 80px;
+}
+
+.cadastro h1 {
+    color: #917c4f;
     font-weight: 1000;
 }
 
-.cabecalho p{
+.cadastro p {
+    font-weight: 300;
     color: white;
-    padding-left: 30px;
-    font-weight: 500;
+    font-size: 1.2rem;
 }
+
+.btnMain{
+    font-size: 1.4rem;
+    padding: 15px;
+    font-weight: 500;
+    background-color: #917c4f;
+    border: none;
+}
+
+.btnMain input:hover{
+    background-color:#917c4f;
+    opacity: .75;
+}
+
+/* CSS FOOTER */
+
+.rodape {
+    padding: 20px 20px 0;
+}
+
+.logofooter{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.rodape .info-contato p {
+    font-weight: 500;
+    margin: 0px;
+    color: #917c4f;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #917c4f;
+    font-size: 13px;
+}
+
+.rodape a:hover {
+    font-weight: bold;
+}
+
+.rodape .redes-sociais {
+    display: inline-block;
+}
+
+.rodape p.direitos {
+    text-align: center;
+    color: #917c4f;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.redes-sociais a{
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: #917c4f;
+}
+
