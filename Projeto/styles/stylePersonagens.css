@@ -60,6 +60,10 @@ header{
     background-color: white;
 }
 
+.personagens a{
+    color: #917c4f;
+}
+
 
 /* carousel */
 .carousel{
@@ -343,4 +347,8 @@ header{
     .carousel .list .item .content .title{
         font-size: 30px;
     }
+}
+
+.menupersonagens .personagens{
+    color: #917c4f;
 }

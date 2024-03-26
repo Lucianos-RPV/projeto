@@ -81,3 +81,7 @@ table th {
 }
 
 /* Fim SectionDownload */
+
+.download a{
+    color: #917c4f;
+}
