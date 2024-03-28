@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Dm sans';
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
+}
+
+.novidades a{
+    color: #917c4f;
+}
+
+.cabecalho{
+    background-image: url('../imagens/novidade-BG.jpg');
+}

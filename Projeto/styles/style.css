@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Dm sans';
-    src: url('fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
 }
 
 body {
@@ -220,4 +220,4 @@ body {
     color: #917c4f;
 }
 
-/* Inicio footer */
+/* Fim footer */

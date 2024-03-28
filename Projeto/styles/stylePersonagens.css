@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Dm sans';
-    src: url('fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
 }
 
 body{
@@ -107,7 +107,7 @@ header{
     line-height: 1.3em;
 }
 .carousel .list .item .topic{
-    color: #f1683a;
+    color: #917c4f;
 }
 .carousel .list .item .buttons{
     display: grid;
