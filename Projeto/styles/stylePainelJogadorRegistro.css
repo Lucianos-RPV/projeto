@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Dm sans';
+    src: url('../fonte/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    font-family: 'DM sans', sans-serif;
+    color: white;
+    font-weight: 500px;
+}
+
+.cabecalho{
+    background-image: url('../imagens/painel-image2.jpg');
+    height: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    opacity: .75;
+}
+
+.form-control {
+    width: 640px !important;
+}
+
+.form-label{
+    font-size: 1.3rem;
+}
+
+.btnPainel {
+    margin-top: 10px;
+    background-color: #F8F9FA;
+    color: black;
+    border: none;
+}
+
+.btnPainel:hover{
+    background-color: #917c4f;
+    border:none;
+}
+
+.mb-3 a{
+    font-size: 1.rem;
+    color: white;
+}
+
+.painel a{
+    color: #917c4f;
+}

@@ -10,17 +10,24 @@ body{
 }
 
 .cabecalho{
-    background-image: url('../imagens/contato-image.webp');
-    height: 500px;
+    background-image: url('../imagens/contato-image.jpg');
+    height: 450px;
 }
 
 .form{
-    margin-top: 40px;
     font-weight: 700;
-    font-size: 1.1rem;
     padding: 20px;
-    padding-bottom: 10px;
     opacity: .75;
+}
+
+.form h1 {
+    display: flex;
+    color: #917c4f;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
 }
 
 .col-auto{
@@ -28,9 +35,16 @@ body{
 }
 
 .col-auto button{
-    width: 100;
-    margin-top: 0;
-    padding: 0 20px 0 20px;
+    width: 100px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.col-auto button:hover{
+background-color: #917c4f;
 }
 
 .contato a{

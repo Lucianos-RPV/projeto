@@ -15,4 +15,5 @@ body{
 
 .cabecalho{
     background-image: url('../imagens/novidade-BG.jpg');
+    height: 450px;
 }

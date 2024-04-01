@@ -10,7 +10,7 @@ body{
 }
 
 .cabecalho-sobre{
-    background-image: url('../imagens/sobre-imgage.png');
+    background-image: url('../imagens/sobre-image.png');
     height: 450px;
     width: 100%;
 
@@ -30,8 +30,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 60px;
-    
+    margin-bottom: 60px; 
 }
 
 .section-sobre p {

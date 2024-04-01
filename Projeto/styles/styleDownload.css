@@ -10,7 +10,7 @@ body {
 
 .cabecalho{
     background-image: url('../imagens/Download-image.jpg');
-    height: 560px;
+    height: 450px;
 }
 
 /* Inicio SectionDownload */
@@ -24,8 +24,13 @@ body {
     gap: 15px;
 }
 
+.list-group a{
+    border: none;
+}
+
 .sectionDownload div a:hover {
     background-color: #917c4f;
+    border: none;
 }
 
 .sectionEsp {
