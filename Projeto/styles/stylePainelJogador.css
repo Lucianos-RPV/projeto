@@ -11,6 +11,7 @@ body{
     font-weight: 500px;
 }
 
+
 .cabecalho{
     background-image: url('../imagens/painel-image2.jpg');
     height: 450px;
@@ -33,11 +34,16 @@ form {
     font-size: 1.3rem;
 }
 
-.btnRegistro {
+.btnRegistro{
     margin-top: 10px;
     background-color: #F8F9FA;
     color: black;
     border: none;
+    width: 100px;   
+}
+
+::placeholder {
+    color: black;
 }
 
 .btnRegistro:hover{
@@ -47,4 +53,16 @@ form {
 
 .painel a{
     color: #917c4f;
+}
+
+.form-control:focus , .form-select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control{
+    outline: none;
+    border: none;
+    box-shadow: none;
 }

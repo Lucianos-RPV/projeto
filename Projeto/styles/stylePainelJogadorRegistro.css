@@ -12,7 +12,7 @@ body{
 }
 
 .cabecalho{
-    background-image: url('../imagens/painel-image2.jpg');
+    background-image: url('../imagens/painel-image.jpg');
     height: 450px;
 }
 
@@ -40,16 +40,27 @@ form {
     border: none;
 }
 
+::placeholder {
+    color: black;
+}
+
 .btnPainel:hover{
     background-color: #917c4f;
     border:none;
 }
 
-.mb-3 a{
-    font-size: 1.rem;
-    color: white;
-}
-
 .painel a{
     color: #917c4f;
+}
+
+.form-control:focus , .form-select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.form-control{
+    outline: none;
+    border: none;
+    box-shadow: none;
 }

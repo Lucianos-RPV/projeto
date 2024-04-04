@@ -56,7 +56,7 @@
       <div class="cadastro">
         <h1 class="titulo">Login</h1>
         <p>Já possui uma conta? Clique aqui para entrar</p>
-        <input class="btn btn-primary btnMain" type="button" value="Login" onclick="redirecionarlogin()">
+        <input class="btn btn-primary btnMain" type="button" value="Efetuar login" onclick="redirecionarlogin()">
       </div>
   </header>
   <!--Fim do header-->
@@ -66,17 +66,17 @@
       <h2>Registro</h2>
       <div class="mb-3">
           <label for="exampleInputName1" class="form-label">Nome de usuário: </label>
-          <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+          <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" required>
       </div>
       <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">E-mail: </label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
       </div>
       <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Senha: </label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" class="form-control" id="exampleInputPassword1" required>
       </div>
-      <button type="submit" class="btn btn-primary btnPainel">Entrar</button>
+      <input type="submit" class="btn btn-primary btnPainel" onclick="registro()" placeholder="Entrar">
   </form>
   <!--Fim da Main-->
 
@@ -130,10 +130,12 @@
 
   <!--Inicio dos Scripts-->
   <div>
-  <script src="scripts/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
   </div>
   <!--Fim dos Scripts-->
 </body>

@@ -56,7 +56,7 @@
         <div class="cadastro">
           <h1 class="titulo">Registre-se</h1>
           <p>Não possui uma conta? Crie uma agora mesmo!</p>
-          <input class="btn btn-primary btnMain" type="button" value="Registre-se" onclick="redirecionarRegistro()">
+          <input class="btn btn-primary btnMain" type="button" value="Seguir para página" onclick="redirecionarRegistro()">
         </div>
     </header>
     <!--Fim do header-->
@@ -65,14 +65,14 @@
     <form>
         <h2>Login</h2>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">E-mail: </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputEmail" class="form-label">E-mail: </label>
+            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Senha: </label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="exampleInputPassword" class="form-label">Senha: </label>
+            <input type="password" class="form-control" id="exampleInputPassword">
         </div>
-        <button type="submit" class="btn btn-primary btnRegistro">Entrar</button>
+        <input type="text" class="btn btn-primary btnRegistro" onclick="login()" placeholder="Entrar"></input>
     </form>
     <!--Fim da Main-->
 

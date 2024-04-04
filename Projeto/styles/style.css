@@ -109,7 +109,7 @@ body {
 }
 
 .novLink:hover{
-    text-decoration: underline;
+    opacity: 0.75;
 }
 
 .section2 {
@@ -137,6 +137,7 @@ body {
     justify-content: center;
     text-align: center;
 }
+
 .card-group{
     gap: 15px;
     margin: 15px;
@@ -150,19 +151,38 @@ body {
 
 .card img{
     height: 100%;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
 }
 
+.card a{
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover{
+    opacity: .75;
+}
+
+.card-body{
+    background-color: #000;
+    color: #917c4f;
+}
 
 .card h5{
     text-align: center;
     font-family: 'DM sans', sans-serif;
     font-weight: 500;
-    font-size: 1.2;
+    font-size: 1.5rem;
 }
 
-.card-text{
-    bottom: 0;
+.card div p{
+    text-align: start;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
+
 
 /* Fim do Main */
 

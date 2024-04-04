@@ -14,6 +14,7 @@ function btnEnviar() {
 /* contato.html fim*/
 
 
+
 /* Redirecionamentos inicio*/
 function redirecionarCadastro() {
     window.location.href = "../painelJogadorRegistro.html";
@@ -33,4 +34,44 @@ function redirecionarlogin() {
 function redirecionarRegistro() {
     window.location.href = "../painelJogadorRegistro.html";
 }
+function redirecionarHome() {
+    window.location.href = "./index.html";
+}
 /* index.html fim*/
+
+
+/*registro inicio*/
+
+function registro(){
+    var nome = document.getElementById('exampleInputName1').value
+    var email = document.getElementById('exampleInputEmail1').value
+    var senha = document.getElementById('exampleInputPassword1').value
+    if(nome.trim() === "" || email.trim() === "" || senha.trim() === ""){
+        window.alert("Todos os campos devem ser preenchidos.");
+    } else {
+        redirecionarlogin();
+        window.alert(`Olá ${nome}. Seu registro foi concluído com sucesso.`);
+        localStorage.setItem("nome", nome);
+        localStorage.setItem("email", email);
+        localStorage.setItem("senha", senha);
+    }
+}
+
+function login(){
+    var email = document.getElementById('exampleInputEmail').value
+    var senha = document.getElementById('exampleInputPassword').value
+    var emailLocal = localStorage.getItem("email");
+    var SenhaLocal = localStorage.getItem("senha");
+    console.log(emailLocal, SenhaLocal);
+
+    if(email.trim() === "" || senha.trim() === ""){
+        window.alert("Todos os campos devem ser preenchidos.");
+    }else if(email === emailLocal && senha === SenhaLocal){
+        redirecionarHome();
+    }else{
+        window.alert("Dados inválidos. Tente novamente.");      
+    }
+}
+
+
+/*registro final*/
