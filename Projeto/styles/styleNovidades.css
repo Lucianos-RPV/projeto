@@ -19,19 +19,15 @@ body{
 }
 
 .container{
-    margin-top: 1.5rem;
-    background-color: black;
-    border-radius: 8px;
     padding: 0;
 }
 
-.card{
-    border-radius: 8px;
-}
-
-.card img{
-    height: 250px;
-    width: 100%;
+.main{
+    margin: 1.5rem;
+    background-color: black;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .card-body{
@@ -39,14 +35,23 @@ body{
     padding: 1rem;
 }
 
-.card-body h2,.card-body p {
-    margin: 0;
-    padding: 1rem;
+.card-body a,.card-body p {
+    text-decoration: none;
+    padding: 0;
     display: flex;
     color: #917c4f;
     font-weight: bold;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+}
+
+.card-body a{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.card-body a:hover{
+    text-decoration: underline;
 }
 
 .container hr{
